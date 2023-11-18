@@ -1,0 +1,11 @@
+[package]
+authors = ["melkor <hohav@fastmail.com>"]
+description = "Data repository for Super Smash Bros. Melee"
+edition = "2021"
+license = "MIT"
+name = "ssbm-data"
+repository = "https://github.com/hohav/ssbm-data"
+version = "0.1.0"
+
+[dependencies]
+num_enum = "0.7"

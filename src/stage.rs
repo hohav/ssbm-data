@@ -1,0 +1,36 @@
+use num_enum::TryFromPrimitive;
+
+#[derive(Debug, PartialEq, Eq, Clone, Copy, TryFromPrimitive)]
+#[repr(u16)]
+pub enum Stage {
+	FountainOfDreams = 2,
+	PokemonStadium = 3,
+	PrincessPeachsCastle = 4,
+	KongoJungle = 5,
+	Brinstar = 6,
+	Corneria = 7,
+	YoshisStory = 8,
+	Onett = 9,
+	MuteCity = 10,
+	RainbowCruise = 11,
+	JungleJapes = 12,
+	GreatBay = 13,
+	HyruleTemple = 14,
+	BrinstarDepths = 15,
+	YoshisIsland = 16,
+	GreenGreens = 17,
+	Fourside = 18,
+	MushroomKingdomI = 19,
+	MushroomKingdomIi = 20,
+	Venom = 22,
+	PokeFloats = 23,
+	BigBlue = 24,
+	IcicleMountain = 25,
+	Icetop = 26,
+	FlatZone = 27,
+	DreamLandN64 = 28,
+	YoshisIslandN64 = 29,
+	KongoJungleN64 = 30,
+	Battlefield = 31,
+	FinalDestination = 32,
+}
